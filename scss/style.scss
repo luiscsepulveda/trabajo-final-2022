@@ -1,10 +1,12 @@
-$bg: #F0F0F0 ;
-$navbar: 1.4rem;
-$texto2: 1.5rem;
-
+@import "variables";
 @import "header";
 @import "banner";
 @import "section1";
 @import "footer";
-@import "mqueries"
+@import "./home/home";
+@import "./products/products";
+@import "./aboutus/aboutus";
+@import "./contact/contact";
+@import "./checkout/checkout";
+@import "mqueries";
 

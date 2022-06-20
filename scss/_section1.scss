@@ -1,11 +1,9 @@
 /* CARDS */
 
 .titleCards {
-    font-family: 'Roboto', sans-serif;
-    text-align: center;
-    margin-top: 3rem;
+    @include titulos;
     h1{
-        font-size: 5*$texto2;
+        font-size: 3*$texto2;
     }
 }
 
@@ -36,12 +34,6 @@
     }
     
 }
-
-
-
-
-
-
 
 
 .section__cards{

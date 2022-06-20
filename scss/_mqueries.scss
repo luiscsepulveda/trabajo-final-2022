@@ -20,4 +20,47 @@
             margin-top: 5rem;
         }
     }
+    .title__aboutus{
+        display: flex; 
+        text-align: center;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }   
+    .title__aboutus h2{
+        font-size: 60px;
+    }
+    
+    
+    .section__contact{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin-bottom: 20px;
+    }
+    .nameCard {
+        width: 300px;
+        height: 300px;
+        margin: 30px;
+    }
+    .nameCard .front h3 {
+        width: 300px;
+        height: 300px;
+        line-height: 300px;
+        color: rgb(44, 45, 76);
+    }
+    .nameCard .back h3 {
+        font-size: 80px;
+        margin-top: 70px;
+        letter-spacing: 2px;
+    }    
 }
+
+
+
+
+
+
+
+
+

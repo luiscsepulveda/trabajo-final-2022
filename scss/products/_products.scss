@@ -1,0 +1,67 @@
+/* Products */
+
+.products__banner{
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.p__btn{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+    padding: 2rem;
+}
+
+.p__cards{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5rem;
+    margin-bottom: 10rem;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.pcard{
+    width: 300px;
+    justify-content: space-between;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    border-radius: 4px;
+    padding-bottom: 1rem;
+    margin: 1rem;
+}
+
+.pcard img{
+    width:290px;
+    padding-top: 3px;
+}
+.pcard h2 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 2rem;
+}
+
+.pcard button{
+    justify-items: center;
+}
+.btn__cart {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    justify-content: center;
+    padding: 5px 5px;
+}
+
+.pcard:hover{
+    animation: pcard 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    @keyframes pcard {
+        0% {
+        transform: translateZ(0);
+        box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+        }
+        100% {
+        transform: translateZ(50px);
+        box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+        }
+    }
+}
+

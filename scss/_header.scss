@@ -20,13 +20,23 @@
     border-radius: 10px;
     border: 1px solid rgba( 255, 255, 255, 0.18 );
         .navbar-brand img{
+            cursor: pointer;
             width: 100px;
             .nav__cart{
                 color: black;
-
             }
         }     
 }
+
+.nav-link{
+    cursor: pointer;
+    &:hover{
+        text-decoration: underline;
+        text-decoration-color: goldenrod;
+    }
+}
+
+
 
 @keyframes logo{
     0% {
