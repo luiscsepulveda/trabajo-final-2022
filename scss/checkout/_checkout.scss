@@ -19,17 +19,9 @@
         padding-bottom: 1rem;
         margin-bottom: 6rem;
         margin-top: 9rem;
-        .logo__checkout:hover {
-            animation: logo__checkout 0.45s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-            @keyframes logo__checkout {
-                0% {
-                transform: translateZ(0);
-                }
-                100% {
-                transform: translateZ(160px);
-                }
-            }
+        .register__link{
+            cursor: pointer;
+            color: darkmagenta;
         }
     }
 }
-
