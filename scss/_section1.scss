@@ -1,11 +1,22 @@
 /* CARDS */
 
 .titleCards {
+    p{
+        color: gray;
+        font-size: 30px;
+    }
+    span{
+        color: black;
+        font-size: 3rem;
+    }
     @include titulos;
     h1{
         font-size: 3*$texto2;
     }
+
 }
+
+
 
 .titleCards:hover{
     animation: titleCards 1.5s ease-in-out infinite both;
@@ -35,7 +46,81 @@
     
 }
 
-
+// Products Cards //
+.h__cards{
+    display: flex;
+    flex-wrap: wrap;
+    // margin-top: 5rem;
+    // margin-bottom: 10rem;
+    text-align: center;
+    justify-content: space-around;
+    margin: 4rem 9rem;
+        .card{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+            width: 17rem;
+            padding: 17px;
+            border-radius: 15px;
+            margin-top: 2rem;
+            
+            .image{
+                height: 230px;
+                width: 100%;
+            }
+            .product_details {
+                span{
+                font-size: 16px;
+            }
+                    h5{
+                    display: flex;
+                    justify-content: space-between;
+                    margin: 10px 0;
+                }
+                .star{
+                    color: gold;
+                }
+                p{
+                    color: gray;
+                    font-size: 12px;
+                    margin: 15px 0;
+                }
+                button{
+                    float: right;
+                    background-color: rgba(0, 0, 0, 0.94);
+                    color: white;
+                    border: none;
+                    padding: 10px 18px;
+                    border-radius: 15px;
+                    a{
+                        color: white;
+                }
+            }   
+        }
+    }
+}
+//btn whatsap 
+.btn-wsp{
+    position: fixed;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    bottom: 30px;
+    right: 30px;
+    background: #0df053;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
+    z-index: 100;
+    &:hover{
+        text-decoration: none;
+        color: #0df053;
+        background: #fff;
+    }
+} 
 .section__cards{
     display: flex;
     flex-wrap: wrap;
@@ -44,29 +129,28 @@
     text-align: center;
     justify-content: space-around;
     .card1{
-        width: 310px;
-        height: 450px;
+        width: 230px;
+        height: 300px;
         box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
         border-radius: 4px;
-        background-image: url(../Img/imgW/GFB1.jpg);
+        background-image: url(../Img/Img_index/img230px1.png);
         background-size: cover;
     }
     .card2{
-        width: 310px;
-        height: 450px;
+        width: 230px;
+        height: 300px;
         box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
         border-radius: 4px;
-        background-image: url(../Img/imgW/GFB2.jpg);
+        background-image: url(../Img/Img_index/GFB230px.png);
         background-size: cover; 
     }
     .card3{
-        width: 310px;
-        height: 450px;
+        width: 230px;
+        height: 300px;
         box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
         border-radius: 4px;
-        background-image: url(../Img/imgW/GFB3.jpg);
-        background-size: cover; 
-    }
+        background-image: url(../Img/Img_index/img230px3.png);         background-size: cover;     
+    } 
 }
 
 
@@ -84,6 +168,3 @@
         }
     }
 }
-
-
-
