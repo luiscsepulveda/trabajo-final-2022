@@ -10,6 +10,15 @@
         font-size: 50px;
         font-family: 'Roboto', sans-serif;
     }
+    
+.h__cards{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin:2rem 4rem; 
+}
+
 .section__cards{
     display: flex;
     flex-direction: column;
