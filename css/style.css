@@ -709,34 +709,28 @@ body {
   align-items: center;
   margin-top: 10rem;
   margin-bottom: 5rem; }
-
-.image__error {
-  width: 1000px; }
-
-.image__error img {
-  width: 100%; }
-
-.title__error {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  font-size: 2rem;
-  text-align: center; }
-
-h2 {
-  font-family: 'Poppins', sans-serif;
-  font-size: 8rem;
-  font-weight: 700;
-  color: rgba(0, 0, 0, 0.1); }
-
-h3 {
-  font-weight: bold; }
-
-p {
-  font-family: "poppins" sans-serif;
-  font-size: 40px;
-  width: 70%;
-  font-weight: 100; }
+  .img__404 .image__error {
+    width: 1000px; }
+    .img__404 .image__error .image__error img {
+      width: 100%; }
+  .img__404 .title__error {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 2rem;
+    text-align: center; }
+    .img__404 .title__error h2 {
+      font-family: 'Poppins', sans-serif;
+      font-size: 8rem;
+      font-weight: 700;
+      color: rgba(0, 0, 0, 0.1); }
+    .img__404 .title__error h3 {
+      font-weight: bold; }
+    .img__404 .title__error p {
+      font-family: "poppins" sans-serif;
+      font-size: 40px;
+      width: 70%;
+      font-weight: 100; }
 
 @media screen and (min-width: 0px) and (max-width: 765px) {
   .img__404 {
@@ -766,7 +760,6 @@ p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    text-align: center;
     margin-top: 6rem; }
     .titleCards .p__1 {
       font-family: 'Secular One', sans-serif;
@@ -776,15 +769,15 @@ p {
     .titleCards h1, .titleCards .p__3 {
       font-family: 'Poppins', sans-serif;
       font-weight: 400;
-      font-size: 50px;
-      display: flex;
-      flex-wrap: wrap; }
+      font-size: 50px; }
     .titleCards .p__2 {
       font-size: 50px;
       display: flex;
       flex-wrap: wrap; }
     .titleCards .p__3 {
-      font-size: 30px; }
+      display: flex;
+      font-size: 30px;
+      flex-direction: row; }
       .titleCards .p__3 span {
         color: goldenrod; }
   .h__cards {
