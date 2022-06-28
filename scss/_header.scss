@@ -25,11 +25,22 @@
         .navbar-brand img{
             cursor: pointer;
             width: 100px;
-            .nav__cart{
-                color: black;
-            }
         }     
+        .nav__cart{
+            svg{
+                width: 40px;
+                height: 40px;
+                &:hover{
+                    fill: goldenrod;
+                }
+            }
+        }
+        .nav-item{
+            font-size: 20px;
+        }
 }
+
+
 
 .nav-link{
     cursor: pointer;

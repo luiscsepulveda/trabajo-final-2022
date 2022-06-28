@@ -6,7 +6,6 @@ $cardWidth: 310px;
 $cardHeight: 450px;
 
 @mixin titulos {
-    font-family: 'Roboto', sans-serif;
     text-align: center;
     margin-top: 4rem;
 }
@@ -19,3 +18,8 @@ $cardHeight: 450px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
 
+// font-family: 'Poppins', sans-serif;
+// font-family: 'Secular One', sans-serif;
+
+// brand logo color 
+// rgba(135,103,8,255)
