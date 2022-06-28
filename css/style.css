@@ -777,7 +777,8 @@ body {
     .titleCards .p__3 {
       display: flex;
       font-size: 30px;
-      flex-direction: row; }
+      flex-direction: row;
+      margin-left: 60px; }
       .titleCards .p__3 span {
         color: goldenrod; }
   .h__cards {
