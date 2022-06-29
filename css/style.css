@@ -711,7 +711,7 @@ body {
   margin-bottom: 5rem; }
   .img__404 .image__error {
     width: 1000px; }
-    .img__404 .image__error .image__error img {
+    .img__404 .image__error img {
       width: 100%; }
   .img__404 .title__error {
     display: flex;
