@@ -705,14 +705,15 @@ body {
 
 .img__404 {
   display: flex;
-  justify-content: space-evenly;
+  flex-direction: column-reverse;
+  justify-content: center;
   align-items: center;
   margin-top: 10rem;
   margin-bottom: 5rem; }
   .img__404 .image__error {
-    width: 1000px; }
+    width: 500px; }
     .img__404 .image__error img {
-      width: 100%; }
+      width: 500px; }
   .img__404 .title__error {
     display: flex;
     align-items: center;
@@ -739,7 +740,9 @@ body {
     align-items: center;
     margin-top: 10rem; }
     .img__404 .image__error {
-      width: 400px; } }
+      width: 400px; }
+      .img__404 .image__error img {
+        width: 400px; } }
 
 /* media queries */
 @media screen and (min-width: 0px) and (max-width: 765px) {

@@ -1,13 +1,14 @@
 .img__404{
     display: flex;
-    justify-content: space-evenly;
+    flex-direction: column-reverse;
+    justify-content: center;
     align-items: center;
     margin-top: 10rem;
     margin-bottom: 5rem;
     .image__error {
-        width: 1000px;
+        width: 500px;
         img{
-            width: 100%;
+            width: 500px;
         }
     }
     .title__error{
@@ -52,7 +53,10 @@
         align-items: center;
         margin-top: 10rem;
         .image__error {
-            width: 400px;          
+            width: 400px; 
+            img{
+                width: 400px;
+            }         
         }
     }
     
